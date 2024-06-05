@@ -1,0 +1,99 @@
+.Features{
+    margin-top: 275px;
+    width: 100vw;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.f_inside{
+    /* border: 2px solid black; */
+    background-image: linear-gradient(white 10%,#EDE5FE);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    min-height: 97vh;
+    max-width: 97vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.heading{
+    border: 2px solid #bebebe;
+    background-color: #ECF1F7;
+    border-radius: 50px ;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    color:#4F87FF;
+}
+.main_heading{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.bento1{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+.bento1_thin{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* gap: 15px; */
+    /* border: 2px solid red; */
+    width: 26%;
+    padding: 25px 0 25px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.bento1_thick{
+    /* border: 2px solid red; */
+    width: 45%;
+    padding: 25px 0 25px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111928;
+    color: white;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    gap: 25px;
+    /* overflow: hidden; */
+}
+
+.bento2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    /* border: 2px solid green ; */
+
+}
+.bento2_in{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49.1%;
+    padding-left: 25px ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+    
+}

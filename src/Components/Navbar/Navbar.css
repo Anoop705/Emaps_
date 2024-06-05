@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid black; */
+    color: black;
+    background-color: rgb(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 7%;
+    gap: 250px;
+    /* opacity: 0.92; */
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    backdrop-filter: blur(20px);
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+}
+    
+.logo{
+    
+    display: flex;
+    align-items: center;
+    width: 5%;
+    height: 60px;
+    /* border: 2px solid red; */
+    
+}
+.logo img{
+    height:inherit;
+}
+.logo p {
+    font-size: 1.2rem;
+    font-weight:600;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #7241E3;
+}
+ul{
+    font-size: 1 rem;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+
+.signup {
+    border-radius: 60px;
+    width: 120px;
+    height: 40px;
+    background-color: #7241E3;
+    color: white;
+    border: none;
+
+}
+
+text{
+    text-align: center;
+    font-size: 1 rem ;
+}
