@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Faq = () => {
   return (
-    <Container>
+    <Container className="test">
       <div className="box1">
         <p>
           Frequently asked <br />

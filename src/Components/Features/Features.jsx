@@ -7,7 +7,7 @@ import Value from "../../assets/image.svg";
 import Invoice from "../../assets/monthly_invoice.svg";
 export const Features = () => {
   return (
-    <div className="Features">
+    <div className="Features block">
       <div className="f_inside">
         <div className="heading">Features</div>
         <div className="main_heading">

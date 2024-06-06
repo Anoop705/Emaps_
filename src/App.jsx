@@ -33,7 +33,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <Features />
-      <div style={{ borderRadius:'45px',marginTop:'40px',marginBottom:'40px' , width:'97vw',paddingBottom:'50px', paddingLeft:'40px', paddingRight:'40px',backgroundImage:"linear-gradient(white 10%,#EDE5FE)" }}>
+      <div className="test" style={{ borderRadius:'45px',marginTop:'40px',marginBottom:'40px' , width:'97vw',paddingBottom:'50px', paddingLeft:'40px', paddingRight:'40px',backgroundImage:"linear-gradient(white 10%,#EDE5FE)" }}>
         <Testimonials />
         <Carousel 
         style={{border:'3px solid red'}}
